@@ -7,6 +7,10 @@
   font-style: normal;
 }
 
+body{
+    margin:0px 20px;
+    padding:0px 20px;
+}
 
 .logo{
     width:300px;
@@ -14,16 +18,34 @@
 .nav-li-container{
     display: flex;
     gap: 30px;
+    margin-right: 120px;
+    
 }
 .nav-li-container li{
     list-style: none;
-    font-size: 30px;
+    font-size: 20px;
+
 }
 .nav-li-container li a{
     text-decoration: none;
     font-weight: 600;
     color:#562F00;
+    padding-right: 30px;
+   
 }
 .nav-li-container li a:hover{
     border-bottom: 3px solid #562F00;
+     
+}
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+/* main-banner-section */
+.main-banner-section{
+    border:1px solid red;
+    height: 800px;
 }
