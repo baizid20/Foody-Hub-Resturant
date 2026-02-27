@@ -7,10 +7,15 @@
   font-style: normal;
 }
 
-body{
+/* body{
     margin:0px 20px;
     padding:0px 20px;
-}
+    
+} */
+ *{
+    margin:0px;
+    padding:0px;
+ }
 
 .logo{
     width:300px;
@@ -46,9 +51,95 @@ body{
 
 /* main-banner-section */
 .main-banner-section{
-    border:1px solid red;
     height: 800px;
+    display: flex;
+    /* align-items: center; */
+    background-image: url('assets/resturant\ ai\ made\ hero\ banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+    /* border-radius: 10px; */
+    /* background-position: center; */
+   
 }
 .banner-img{
     width: 600px;
 }
+.banner-heading-text-div{
+    padding:200px 0px 0px 40px ;
+    margin:60px  0px 0px 60px;
+    width: 40%;
+    background-color: rgba(222, 184, 135, 0.103);
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+   
+   
+}
+.banner-heading-text{
+    font-size: 70px;
+    line-height: 80px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    color: rgb(48, 41, 41); 
+}
+.order-btn{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    color:black;
+    border:3px solid black;
+    padding:16px 24px ;
+    /* border-radius: 10px; */
+    display: flex;
+    gap:5px;
+    align-items: center;
+    width: max-content;
+    
+}
+.order-btn:hover{
+    background-color: rgb(239, 239, 210);
+    text-decoration: underline;
+    cursor: pointer;
+    border:3px solid #562F00;
+    color:white;
+    background-color: #90724f;
+}
+.orderNowBtnArrow{
+    width:20px;
+}
+.orderNowBtnArrow:hover{
+   color:#562F00;
+}
+.start-call-btn-border-div{
+   border:1px solid white;
+   padding:5px 5px 5px 15px;
+   background-color: white;
+   border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap:2px;
+}
+.start-call-btn{
+    background-color: black;
+    color: white;
+    padding:10px 25px;
+    border-radius: 30px;
+    border:1px solid black;
+    font-weight: bold;
+    font-family: sans-serif;
+   
+}
+.start-call-btn-main-div{
+  margin-left:400px;
+  height: fit-content;
+  margin-top:700px;
+}
+.start-call-btn-icon-div{
+    width: 30px;
+}
+.start-call-btn-icon{
+    width: 100%;
+}
+
