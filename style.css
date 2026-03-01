@@ -39,8 +39,7 @@
    
 }
 .nav-li-container li a:hover{
-    border-bottom: 3px solid #562F00;
-     
+    border-bottom: 3px solid #562F00; 
 }
 .header-section{
     display: flex;
@@ -163,4 +162,26 @@
 .about-us-food-img{
     border-radius: 10px;
 }
+.ourmenu-main-section{
+    height: 600px;
+}
+.Our-menu-heading {
+    font-size: 75px;
+    color:#562F00;
+    padding:40px 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* .circle-design-div{
+    width:100px;
+    height: 120px;
+    border:10px solid  #bb936978;
+    border-radius: 100% ;
+    background-size:cover;
+    background-position:center;
+    padding-left:2px;
+    background-repeat: no-repeat;
 
+    
+} */
